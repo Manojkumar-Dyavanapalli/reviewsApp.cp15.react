@@ -52,8 +52,8 @@ class ReviewsCarousel extends Component {
         <div className="carousel-container">
           <button
             type="button"
-            onClick={this.onClickLeftArrow}
             testid="leftArrow"
+            onClick={this.onClickLeftArrow}
             className="arrow-button"
           >
             <img
@@ -64,8 +64,8 @@ class ReviewsCarousel extends Component {
           {this.renderActiveReview(currentReviewDetails)}
           <button
             type="button"
-            onClick={this.onClickRightArrow}
             testid="rightArrow"
+            onClick={this.onClickRightArrow}
             className="arrow-button"
           >
             <img
